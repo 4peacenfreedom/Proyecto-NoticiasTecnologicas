@@ -81,6 +81,7 @@ body {
   height: 300px;
   background-image: url(/Assets/showcase.jpg);
   background-size: cover;
+  background-position: center;
   align-content: center;
   justify-items: center;
   text-align: center;
@@ -107,6 +108,8 @@ body {
 
 .fa-chevron-right {
 }
+
+/* Estilos para las Tarjetas de Noticias */
 .tarjetas-noticias {
   width: 100%;
   display: flex;
