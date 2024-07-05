@@ -145,7 +145,8 @@ body {
 }
 .fa-angle-double-right {
 }
-.banner-tarjetas-uno {
+.banner-tarjetas-uno,
+.banner-tarjetas-dos {
   display: grid;
   height: 300px;
   background-image: url(/Assets/tech-red.jpg);
@@ -158,24 +159,57 @@ body {
   margin: 20px 0;
 }
 .banner-tarjetas-uno__contenido {
+  width: 40%;
 }
 .banner-tarjetas-dos {
+  background-image: url(/Assets/Image-five.jpg);
 }
 .banner-tarjetas-dos__contenido {
+  width: 40%;
 }
 .social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .social__enlaces {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 35px;
+  margin-top: 15px;
 }
 .fab {
+  font-size: 2.5rem;
 }
 .fa-facebook-f {
 }
 .enlaces-pie {
+  background-color: #2f3640;
+  height: 150px;
+  margin: 40px 0;
 }
 .enlaces-pie__contenedor {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 .enlaces-pie__lista {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  justify-content: flex-start;
 }
 .pie {
+  display: grid;
+  place-items: center;
+  position: relative;
+  top: -84px;
+  z-index: 1;
+  padding-bottom: 80px;
+  color: #616161;
 }
