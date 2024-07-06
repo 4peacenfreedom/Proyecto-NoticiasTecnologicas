@@ -38,6 +38,8 @@ body {
 
 /* Estilos para el hamburger menu  */
 .boton-menu {
+  cursor: pointer;
+  padding: 1rem;
 }
 .fas {
 }
@@ -212,4 +214,7 @@ body {
   z-index: 1;
   padding-bottom: 80px;
   color: #616161;
+}
+
+@media screen {
 }
