@@ -38,8 +38,7 @@ body {
 
 /* Estilos para el hamburger menu  */
 .boton-menu {
-  cursor: pointer;
-  padding: 1rem;
+  display: none;
 }
 .fas {
 }
